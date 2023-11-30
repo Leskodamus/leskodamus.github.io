@@ -1,3 +1,3 @@
 # Florian Leskovsek's Personal Blog
 
-Built with [Hugo](https://gohugo.io/)
+Built with [Hugo](https://gohugo.io/).

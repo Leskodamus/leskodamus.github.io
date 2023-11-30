@@ -10,4 +10,5 @@ tags:
 
 Hello and welcome to my first blog post on my beautiful personal homepage!
 
-Built with [Hugo](https://gohugo.io/) and published on [GitLab Pages](https://gitlab.com/Leskodamus/website).
+Built with [Hugo](https://gohugo.io/) and published on [GitHub Pages](https://github.com/Leskodamus/leskodamus.github.io).
+

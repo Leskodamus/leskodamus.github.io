@@ -93,10 +93,6 @@ url  = "https://discordapp.com/users/leskodamus"
 name = "github"
 url  = "https://github.com/Leskodamus"
 
-[[params.social]]
-name = "gitlab"
-url  = "https://gitlab.com/Leskodamus"
-
 [params.footer]
 trademark = true
 rss = true

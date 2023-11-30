@@ -1,6 +1,5 @@
 ---
 title: "About"
-date: 2023-05-14T17:50:37+02:00
 draft: false
 ---
 
@@ -13,8 +12,6 @@ Now I am working full-time as a Software Developer at Angelbird Technologies.
 ### Diploma Thesis
 
 We were a group of four people developing a streaming deck called "Smart Stream", that is, a touch display connected to a Raspberry Pi which lets you execute various tasks on your computer like scripts or sending keystrokes with the simple push of a button. Support for OBS was also implemented using the OBS-Websocket-API. The entire user-space is build in PHP, opening the possibility to run the "Smart Stream" on almost any device with a browser. The necessary management tool, written in Python using PyQt for the GUI, enables the connection with the "Smart Stream" device. Supported platforms are Windows 10/11 and Linux. It must be said that there are absolutely no security features implemented, e.g. encrypted sockets. There was simply not enough time to do proper hardening. 
-
-The corresponding git repository can be found on GitLab: <https://gitlab.com/Leskodamus/smart-stream>    
 
 {{< line_break >}}
 
