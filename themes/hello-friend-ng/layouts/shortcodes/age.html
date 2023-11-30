@@ -1,0 +1,17 @@
+<script type="text/javascript">
+    window.addEventListener("load", () => {
+        const birthday = new Date("03/14/2002");
+        const today = new Date();
+
+        const age = today.getFullYear() - birthday.getFullYear();
+        const month_diff = today.getMonth() - birthday.getMonth();
+
+        if (month_diff < 0 || (month_diff === 0 && today.getDate() < birthday.getDate())) {
+            age--;
+        }
+
+        document.getElementById("age").innerHTML = age;
+    });
+</script>
+
+<span id="age"></span>

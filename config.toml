@@ -1,0 +1,119 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Leskov's Personal Blog"
+theme = "hello-friend-ng"
+paginate = 10
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = false
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[author]
+name = "Florian Leskovsek"
+
+[taxonomies]
+category = "categories"
+tag      = "tags"
+series   = "series"
+
+[permalinks]
+posts = "/posts/:year/:month/:day/:title"
+
+[params]
+dateform        = "Jan 2, 2006"
+dateformShort   = "Jan 2"
+dateformNum     = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
+
+# Subtitle for home
+homeSubtitle = "_>  a virtual place for sharing my information to the public"
+
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = false
+
+# Enable sharing buttons, if you like
+enableSharingButtons = true
+
+# Show a global language switcher in the navigation bar
+enableGlobalLanguageMenu = false
+
+# Metadata mostly used in document's head
+description = "Florian Leskovsek's Personal Blog"
+keywords = "homepage, blog, florian, leskovsek, leskov, developer, programming, crypto, rants, trashtalk"
+images = [""]
+
+enableThemeToggle = false
+
+[params.logo]
+logoMark     = ">"
+logoText     = "leskovsek.dev"
+logoHomeLink = "/"
+
+[[params.social]]
+name = "email"
+url  = "mailto:4c65736b6f7673656b@duck.com"
+
+[[params.social]]
+name = "mastodon"
+url  = "https://fosstodon.org/@Leskodamus"
+
+[[params.social]]
+name = "matrix"
+url  = "https://matrix.to/#/@leskodamus:matrix.org"
+
+[[params.social]]
+name = "twitter"
+url  = "https://twitter.com/Leskodamus"
+
+[[params.social]]
+name = "linkedin"
+url  = "https://www.linkedin.com/in/florian-leskovsek-664214202"
+
+[[params.social]]
+name = "discord"
+url  = "https://discordapp.com/users/leskodamus"
+
+[[params.social]]
+name = "github"
+url  = "https://github.com/Leskodamus"
+
+[[params.social]]
+name = "gitlab"
+url  = "https://gitlab.com/Leskodamus"
+
+[params.footer]
+trademark = true
+rss = true
+author = true
+
+topText = []
+bottomText = [
+    "Enjoy your stay on my virtual property",
+]
+
+[menu]
+[[menu.main]]
+identifier = "about"
+name       = "About"
+url        = "about/"
+
+[[menu.main]]
+identifier = "posts"
+name       = "Posts"
+url        = "posts/"
