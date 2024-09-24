@@ -2,7 +2,6 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Leskov's Personal Blog"
 theme = "hello-friend-ng"
-paginate = 10
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -24,8 +23,8 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
-[author]
-name = "Florian Leskovsek"
+[pagination]
+pagerSize = 10
 
 [taxonomies]
 category = "categories"
@@ -42,7 +41,7 @@ dateformNum     = "2006-01-02"
 dateformNumTime = "2006-01-02 15:04"
 
 # Subtitle for home
-homeSubtitle = "_>  a virtual place for sharing my information to the public"
+homeSubtitle = "Welcome to the virtual property of Florian Leskovsek.<br>Here you can find my thoughts, rants, and other stuff. Enjoy your stay!"
 
 # Set disableReadOtherPosts to true in order to hide the links to other posts.
 disableReadOtherPosts = false
@@ -55,10 +54,13 @@ enableGlobalLanguageMenu = false
 
 # Metadata mostly used in document's head
 description = "Florian Leskovsek's Personal Blog"
-keywords = "homepage, blog, florian, leskovsek, leskov, developer, programming, crypto, rants, trashtalk"
+keywords = "homepage, blog, florian, leskovsek, leskov, leskodamus, developer, programming, programmer, crypto, rants, trashtalk, technology"
 images = [""]
 
 enableThemeToggle = false
+
+[params.author]
+name = "Florian Leskovsek"
 
 [params.logo]
 logoMark     = ">"
@@ -78,10 +80,6 @@ name = "matrix"
 url  = "https://matrix.to/#/@leskodamus:matrix.org"
 
 [[params.social]]
-name = "twitter"
-url  = "https://twitter.com/Leskodamus"
-
-[[params.social]]
 name = "linkedin"
 url  = "https://www.linkedin.com/in/florian-leskovsek-664214202"
 
@@ -99,8 +97,9 @@ rss = true
 author = true
 
 topText = []
+
 bottomText = [
-    "Enjoy your stay on my virtual property",
+    "Simple."
 ]
 
 [menu]
@@ -113,3 +112,8 @@ url        = "about/"
 identifier = "posts"
 name       = "Posts"
 url        = "posts/"
+
+[[menu.main]]
+identifier = "support"
+name       = "Support"
+url        = "support/"
