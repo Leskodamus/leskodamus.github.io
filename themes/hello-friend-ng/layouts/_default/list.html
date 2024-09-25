@@ -30,6 +30,29 @@
                 </ul>
             </div>
         {{ end }}
+
+
+    {{if ne .Title "Tags" }}
+        <h2>Tags</h2>
+
+        <ul class="tags">
+            <li class="tag">
+                <a href="/tags" class="tag-inner">
+                    <span class="tag-name">All</span>
+                    <span class="tag-count">{{ len .Site.Taxonomies.tags }}</span>
+                </a>
+            </li>
+            {{ range .Site.Taxonomies.tags.Alphabetical }}
+                <li class="tag">
+                    <a href="{{ .Page.Permalink }}" class="tag-inner">
+                        <span class="tag-name">{{ .Page.Title }} - </span>
+                        <span class="tag-count">{{ .Count }}</span>
+                    </a>
+                </li>
+            {{ end }}
+        </ul>
+    {{ end }}
+
     {{ partial "pagination-list.html" . }}
     </main>
 {{ end }}
