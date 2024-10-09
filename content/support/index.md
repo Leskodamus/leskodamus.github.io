@@ -16,7 +16,7 @@ Feel free to support with any of the options listed below.
 <button onclick="copyValue('btc-address')">Copy BTC</button>
 {{< /rawHTML >}}
 
-### Monereo - XMR
+### Monero - XMR
 {{< rawHTML >}}
 <pre tabindex="0">
 <code id="xmr-address">4APRmZPfPMKj2qyxTJBN3pDzVni9e9ZsSWwFpucXyekLbnA3tU3znY5ALt8XMZ4rkcaMHbYzqDHNr3YcApVVHp8aT5wsdCv</code>
