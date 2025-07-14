@@ -114,6 +114,11 @@ name       = "Posts"
 url        = "posts/"
 
 [[menu.main]]
+identifier = "tools"
+name       = "Tools"
+url        = "tools/"
+
+[[menu.main]]
 identifier = "support"
 name       = "Support"
 url        = "support/"
