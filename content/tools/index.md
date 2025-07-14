@@ -29,8 +29,8 @@ A collection of tools.
         text: text,
         width: 256,
         height: 256,
-        colorDark: "#000000",
-        colorLight: "#ffffff",
+        colorLight: "#000000",
+        colorDark: "#ffffff",
         correctLevel: QRCode.CorrectLevel.H
       });
     }
@@ -47,7 +47,7 @@ A collection of tools.
 </script>
 
 <input type="text" id="qrInput" placeholder="Enter text or "/>
-<br/>
+<br/><br/>
 <button onclick="generateQR()">Generate QR</button>
 <br/>
 <div id="qrcode"></div>
