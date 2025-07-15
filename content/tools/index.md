@@ -9,4 +9,4 @@ A collection of tools.
 
 {{< line_break >}}
 
-- [QR Code Generator](/tools/qr-generator/)
+- [QR Code Generator](/qr-generator/)
