@@ -72,14 +72,6 @@ name = "email"
 url  = "mailto:4c65736b6f7673656b@duck.com"
 
 [[params.social]]
-name = "mastodon"
-url  = "https://fosstodon.org/@Leskodamus"
-
-[[params.social]]
-name = "matrix"
-url  = "https://matrix.to/#/@leskodamus:matrix.org"
-
-[[params.social]]
 name = "linkedin"
 url  = "https://www.linkedin.com/in/florian-leskovsek-664214202"
 
