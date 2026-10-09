@@ -33,5 +33,5 @@ On top of programming, I have a deep passion for the Linux :penguin: operating s
 
 However, I am that type of person that needs constant change - maybe one day I'll become a full Apple user, or switch over to a BSD system, or instead of programming, I'll become a gardener? Who knows.
 
-Further, I like to push to my limits, mentally and phisically. Not giving up - never. Do it. Again. And again. And again.
+Further, I like to push to my limits, mentally and physically. Not giving up - never. Do it. Again. And again. And again.
 
